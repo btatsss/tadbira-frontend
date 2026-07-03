@@ -6,7 +6,7 @@ export const sendContact = async (
     message: string,
     interests : string[] ,
 ) => {
-    return api.post("/api/contact", {
+    return api.post("/contact", {
         name,
         email,
         message,

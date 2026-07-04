@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://tadbira-one.vercel.app/api",
+  baseURL: "https://tadbira-production.up.railway.app/api",
   headers: {
     "Content-Type": "application/json",
   },
